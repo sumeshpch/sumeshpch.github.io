@@ -1,12 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sumesh Store</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SumeshStore</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #2c3e50;
+      padding: 20px 0;
+      color: #fff;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #ecf0f1;
+      font-weight: 500;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section h2 {
+      margin-bottom: 20px;
+      font-size: 1.5rem;
+      color: #2c3e50;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+      border-radius: 12px;
+      margin-bottom: 40px;
+    }
+    .hero h2 {
+      font-size: 2rem;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      margin-top: 10px;
+    }
+    footer {
+      background: #2c3e50;
+      color: #ecf0f1;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to Sumesh Store</h1>
-  <p>This site is used to host Pinterest API integration and display public info.</p>
+
+  <header>
+    <h1>SumeshStore</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to SumeshStore</h2>
+    <p>Your one-stop destination for stylish picks and curated deals.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>SumeshStore is a curated platform designed to showcase top-rated products with ease and style. From tech to lifestyle, we bring quality to your fingertips.</p>
+  </section>
+
+  <section id="products">
+    <h2>Featured Products</h2>
+    <p>Stay tuned — amazing deals and top Amazon picks coming soon!</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: support@sumeshstore.com</p>
+    <p>Instagram: @sumeshstore</p>
+  </section>
+
+  <footer>
+    &copy; 2025 SumeshStore. All rights reserved.
+  </footer>
+
 </body>
 </html>
